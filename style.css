@@ -4,4 +4,8 @@
 }
 h1 {
     color: blue;
+    font-size: 2em;
 }   
+li{
+    list-style-type: square;
+}
