@@ -6,6 +6,12 @@ h1 {
     color: blue;
     font-size: 2em;
 }   
+nav {
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
 li{
     list-style-type: square;
+    margin: 5px 0;
 }
