@@ -20,6 +20,7 @@ nav {
     background-color: #f0f0f0;
     padding: 10px;
     justify-content: center;
+<<<<<<< HEAD
 }
 main {
     padding: 20px;
@@ -29,6 +30,8 @@ ul{
     display: flex;
     list-style-type: none;
     gap: 15px; 
+=======
+>>>>>>> 46056ec (added css)
 }
 li{
     list-style-type: square;
@@ -44,5 +47,9 @@ li{
     width: 100%;
     bottom: 0;
     margin-top: 10px;
+<<<<<<< HEAD
  }
 
+=======
+ }
+>>>>>>> 46056ec (added css)
