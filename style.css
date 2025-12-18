@@ -21,7 +21,10 @@ nav {
     padding: 10px;
     justify-content: center;
 }
-
+main {
+    padding: 20px;
+    background-color: #fafafa;
+}
 li{
     list-style-type: square;
     margin: 5px 0;
