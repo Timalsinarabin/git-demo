@@ -33,6 +33,13 @@ ul{
 =======
 >>>>>>> 46056ec (added css)
 }
+<<<<<<< HEAD
+=======
+main {
+    padding: 20px;
+    background-color: #fafafa;
+}
+>>>>>>> 000694e (added css for main)
 li{
     list-style-type: square;
     margin: 5px 0;
@@ -48,8 +55,12 @@ li{
     bottom: 0;
     margin-top: 10px;
 <<<<<<< HEAD
+<<<<<<< HEAD
  }
 
 =======
  }
 >>>>>>> 46056ec (added css)
+=======
+ }
+>>>>>>> 000694e (added css for main)
