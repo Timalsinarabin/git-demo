@@ -21,6 +21,9 @@ nav {
     padding: 10px;
     justify-content: center;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a78aa73b3770eeab383cc9009db390b4c796b929
 }
 main {
     padding: 20px;
@@ -30,6 +33,7 @@ ul{
     display: flex;
     list-style-type: none;
     gap: 15px; 
+<<<<<<< HEAD
 =======
 >>>>>>> 46056ec (added css)
 }
@@ -40,6 +44,9 @@ main {
     background-color: #fafafa;
 }
 >>>>>>> 000694e (added css for main)
+=======
+}
+>>>>>>> a78aa73b3770eeab383cc9009db390b4c796b929
 li{
     list-style-type: square;
     margin: 5px 0;
@@ -56,6 +63,7 @@ li{
     margin-top: 10px;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  }
 
 =======
@@ -64,3 +72,7 @@ li{
 =======
  }
 >>>>>>> 000694e (added css for main)
+=======
+ }
+
+>>>>>>> a78aa73b3770eeab383cc9009db390b4c796b929
