@@ -1,28 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <h1>This is a demo for using git 12345</h1>
-    <h2> Hello world!</h2>
-    <header class="heading">
-        <h1>Welcome to My Website</h1>
-        <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Services</li>
-            <li>Contact</li>
-            <li>Profile</li>
-        </ul>
+    <header class="menu-bar">
+        <h1 class="title">RE-Game</h1>
+        <nav class="menu-nav">
+            <ul class="ul-class">
+                <div class="menu-1">
+                    <li class="li-1"><a href="#">Home</a></li>
+                    <li class="li-2"><input type="text" placeholder="Search"><a href="#"></a></li>
+                    <li class="li-3"><a href="#">Discover</a></li>
+                    <li class="li-4"><a href="#">Library</a></li>
+                </div>
+                <div class="menu-2">
+                    <li class="li-5"><a href="#">My wishlist</a></li>
+                    <li class="li-6"><a href="#">My Cart</a></li>
+                    <li class="li-7"><a href="#">Profile</a></li>
+                </div>
+            </ul>
+        </nav>
     </header>
     <main>
-        <p>This is a simple webpage to demonstrate HTML structure and CSS styling.</p>
+        <div class="container-1">
+            <h2>Welcome!</h2>
+            <p>To keep connected with us please login with your personal info</p>
+            <button class="button" onclick="">Sign Up</button>
+        </div>
+        <div class="line"></div>
+        <div class="container">
+            <form action="" method="post">
+                <h2>Log In</h2>
+                <div class="user-input">
+                    <label for="username">Username:</label>
+                    <input type="text" name="Username" id="username" required>
+                </div>
+                <div class="password-input">
+                    <label for="password">Password:</label>
+                    <input type="password" name="Password" id="password" required>
+                </div>
+                <button class="button" onclick="">Log In</button>
+               
+            </form> 
+        </div>
     </main>
-    
-
-    <footer><p>&copy; 2023 My Website. All rights reserved.</p></footer>
 </body>
 </html>

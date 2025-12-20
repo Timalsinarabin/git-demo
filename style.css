@@ -2,77 +2,133 @@
     margin: 0;
     padding: 0;
 }
-header{
-    display: flex;
-    background-color: #333;
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
     color: white;
+    font-size: 1rem;
+}
+.menu-bar{
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+}
+nav a{
+    display: inline-block;
+    padding:6px 10px;
+    text-decoration: none;
+    color: white;
+    transition: transform 0.2s ease,color 0.2s ease;
+}
+nav a:hover{
+    color:white;
+    transform: translateY(-2px);
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-self: unset;
+    align-items: center;
+}
+.li-2{
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+nav ul input{
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 15px;
+    color: white;
+    background: rgb(34, 34, 34);
+}
+.menu-1,.menu-2{
+    display: flex;
     padding: 15px;
+    gap: 25px;
+}
+.menu-1{
+    border-right: 3px solid white;
+}
+main{
+    display:flex;
+    gap:50px;
+}
+.container-1{
+    margin: 50px;
+    background-color: rgb(211, 211, 211);
+    color: black;
+    margin-left: 200px;
+    width: 300px;
+    height: 250px;
+    padding: 50px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
     text-align: center;
+}
+.line{
+    height: 500px;
+    width: 2px;
+    background-color: white;
+}
+.container{
+    margin: 40px;
+    margin-left: 15px;
+    background-color: rgb(30, 30, 30);
+    width: 300px;
+    height: 250px;
+    padding: 50px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: center;
+}
+.container h2{
+    margin-bottom: 30px;
 }
 
-h1 {
-    color: blue;
-    font-size: 2em;
-    margin-bottom: 10px;
-}   
-nav {
-    display: flex;
-    background-color: #f0f0f0;
-    padding: 10px;
-    justify-content: center;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> a78aa73b3770eeab383cc9009db390b4c796b929
+.user-input,.password-input{
+    margin: 25px;
 }
-main {
-    padding: 20px;
-    background-color: #fafafa;
+.user-input label,.password-input label{
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
 }
-ul{
-    display: flex;
-    list-style-type: none;
-    gap: 15px; 
-<<<<<<< HEAD
-=======
->>>>>>> 46056ec (added css)
-}
-<<<<<<< HEAD
-=======
-main {
-    padding: 20px;
-    background-color: #fafafa;
-}
->>>>>>> 000694e (added css for main)
-=======
-}
->>>>>>> a78aa73b3770eeab383cc9009db390b4c796b929
-li{
-    list-style-type: square;
-    margin: 5px 0;
-    padding: 5px 10px;
-}
- footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
+.user-input input,.password-input input{
     width: 100%;
-    bottom: 0;
-    margin-top: 10px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
- }
-
-=======
- }
->>>>>>> 46056ec (added css)
-=======
- }
->>>>>>> 000694e (added css for main)
-=======
- }
-
->>>>>>> a78aa73b3770eeab383cc9009db390b4c796b929
+    padding: 8px;
+    border: none;
+    background: rgb(30, 30, 30);
+    border-bottom: 2px solid white;
+    color: white;
+}
+.user-input input:focus,.password-input input:focus{
+    outline: none;;
+}
+.button{
+    background-color: rgb(220, 220, 220);
+    margin-top: 15px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
+.button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transform: translate(1px,1px);
+}
+.container-1{
+    margin: 50px;
+    background-color: rgb(211, 211, 211);
+    color: black;
+    margin-left: 200px;
+    width: 300px;
+    height: 250px;
+    padding: 50px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: center;
+}
